@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Lendigo - Loan Approval Predictor</title>
+  <link rel="stylesheet" href="static/css/style.css">
+</head>
+<body>
+  <div class="container">
+    <div class="title">Lendigo - Loan Approval Predictor</div>
+    <form action="/predict" method="post">
+      <div class="user-details">
+        <div class="input-box">
+          <span class="details">Income</span>
+          <input type="text" name="Income" placeholder="Enter your income in Rupees" required>
+        </div>
+        <div class="input-box">
+          <span class="details">Age</span>
+          <input type="text" name="Age" placeholder="Enter your age in years" required>
+        </div>
+        <div class="input-box">
+          <span class="details">Experience</span>
+          <input type="text" name="Experience" placeholder="Enter total experience in years" required>
+        </div>
+        <div class="input-box">
+          <span class="details">Experience in current job</span>
+          <input type="text" name="CURRENT_JOB_YRS" placeholder="Enter experience in current job in years" required>
+        </div>
+        <div class="input-box-last">
+          <span class="details">Years staying in current house</span>
+          <input type="text" name="CURRENT_HOUSE_YRS" placeholder="Enter number of years since staying in current house" required>
+        </div>
+      </div>
+
+      <div class="marital-status">
+        <input type="radio" name="Married/Single" id="dot-1a">
+        <input type="radio" name="Married/Single" id="dot-2a">
+        <span class="marital-span">Marital Status</span>
+        <div class="category">
+          <label for="dot-1a">
+            <span class="dot one"></span>
+            <span class="marital-value">Married</span>
+          </label>
+          <label for="dot-2a">
+            <span class="dot two"></span>
+            <span class="marital-value">Single</span>
+          </label>
+        </div>
+      </div>
+
+      <div class="house-ownership">
+        <input type="radio" name="House_Ownership" id="dot-1b">
+        <input type="radio" name="House_Ownership" id="dot-2b">
+        <input type="radio" name="House_Ownership" id="dot-3b">
+        <span class="house-span">House Ownership</span>
+        <div class="category">
+          <label for="dot-1b">
+            <span class="dot one"></span>
+            <span class="house-value">Owned</span>
+          </label>
+          <label for="dot-2b">
+            <span class="dot two"></span>
+            <span class="house-value">Rented</span>
+          </label>
+          <label for="dot-3b">
+            <span class="dot three"></span>
+            <span class="house-value">Neither owned nor rented</span>
+          </label>
+        </div>
+      </div>
+
+      <div class="car-ownership">
+        <input type="radio" name="Car_Ownership" id="dot-1c">
+        <input type="radio" name="Car_Ownership" id="dot-2c">
+        <span class="car-span">Car Ownership</span>
+        <div class="category">
+          <label for="dot-1c">
+            <span class="dot one"></span>
+            <span class="car-value">Owned</span>
+          </label>
+          <label for="dot-2c">
+            <span class="dot two"></span>
+            <span class="car-value">Not owned</span>
+          </label>
+        </div>
+      </div>
+      
+      <div class="button">
+        <input type="submit" value="Predict Loan Approval Probability">
+      </div>
+
+    </form>
+
+  </div>
+
+</body>
+</html>
