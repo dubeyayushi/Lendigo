@@ -17,7 +17,7 @@ At the heart of our solution lies a foundational Logistic Regression model. This
 ### Kaggle Dataset Exploration:
 To empower our AI with robust insights, we tapped into Kaggle, a premier platform for datasets. Our team explored various correlations and attribute combinations, gaining a nuanced understanding of the data landscape. This exploration laid the groundwork for constructing a solution that not only predicts but also adapts to dynamic financial scenarios.
 
-#### Dataset Used: https://www.kaggle.com/datasets/subhamjain/loan-prediction-based-on-customer-behavior
+#### [Dataset Used](https://www.kaggle.com/datasets/subhamjain/loan-prediction-based-on-customer-behavior)
 
 ### Creating the Flask Web App:
 #### Seamless User Interface:
@@ -29,10 +29,10 @@ The frontend of our application is a testament to our commitment to accessibilit
 ### Deployment on Render:
 Taking the leap from development to deployment, we chose Render as our hosting platform. Render's scalability and ease of use provided a perfect environment for our Flask app. This transition ensures that our AI-driven credit scoring is not confined to labs but accessible to anyone, anywhere.
 
-#### Check out Lendigo: lendigo-loan-credibility-predictor.onrender.com
+#### [Check out Lendigo](lendigo-loan-credibility-predictor.onrender.com)
 
 ## TEAM DETAILS: 
 
-- Ayushi Dubey (Email Id: adayushi232@gmail.com, GitHub Profile link: github.com/dubeyayushi)
-- Monya Mehta (Email Id: monyamehta2107@gmail.com, GitHub Profile link: github.com/monya217)
-- Manasvi Jindal (Email Id: manasvijindal28@gmail.com, GitHub Profile link: github.com/manasvijindal)
+- Ayushi Dubey (Email Id: adayushi232@gmail.com, [GitHub Profile Link](github.com/dubeyayushi))
+- Monya Mehta (Email Id: monyamehta2107@gmail.com, [GitHub Profile Link](github.com/monya217))
+- Manasvi Jindal (Email Id: manasvijindal28@gmail.com, [GitHub Profile Link](github.com/manasvijindal))
