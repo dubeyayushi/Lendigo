@@ -31,6 +31,6 @@ Taking the leap from development to deployment, we chose Render as our hosting p
 
 ## TEAM DETAILS: 
 
-- Ayushi Dubey ([Email Id](adayushi232@gmail.com), [GitHub Profile Link](github.com/dubeyayushi))
-- Monya Mehta ([Email Id](monyamehta2107@gmail.com), [GitHub Profile Link](github.com/monya217))
-- Manasvi Jindal ([Email Id](manasvijindal28@gmail.com), [GitHub Profile Link](github.com/manasvijindal))
+- Ayushi Dubey ([Email Id](adayushi232@gmail.com), [GitHub Profile Link](https://github.com/dubeyayushi))
+- Monya Mehta ([Email Id](monyamehta2107@gmail.com), [GitHub Profile Link](https://github.com/monya217))
+- Manasvi Jindal ([Email Id](manasvijindal28@gmail.com), [GitHub Profile Link](https://github.com/manasvijindal))
